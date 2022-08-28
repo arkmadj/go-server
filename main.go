@@ -29,7 +29,7 @@ func helloHander(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintf(w, "hello")
+	fmt.Fprintf(w, "hello!")
 }
 
 func main() {
